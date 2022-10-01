@@ -4,85 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
     <title>Alex's Landing Page</title>
 </head>
 <body>
-    <section class="header">
-        <div class="links-logo">
-            <img class="logo" src="" alt="">
-            <a href="">header link one</a>
-            <a href="">header link two</a>
-            <a href="">header link three</a>
+    <header>
+        <div class="header-container">
+            <span class="logo">Robinett Media</span>
+            <nav>
+                <ul>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li> <a href="">Contact Me</a</li>
+                </ul>
+            </nav>
         </div>
-        <div>
-            <div>
-                <h1>
-                This website is awesome
-                </h1>
+    </header>
+    <section class="sub-header">
+        <div class="container">
+                <h1>This website is awesome</h1>
                 <p>This website has some subtext that goes here under the
-                main title.</p>
-                <button>Sign Up</button>
+                 main title. It's a smaller font and the color is lower
+                 contrast</p>
+                 <button>Sign Up</button>
             </div>
-            <div>
-                <img src="" alt="">
-            </div>
-        </div>
+        <img class="top-image" src="images/city-view.jpg" alt="">
     </section>
-    <section class="sectiontwo">
-        <div>
-            <h2>Some random information.</h2>
-        </div>
-        <div>
-            <div>
+    <main>
+        <section class="sectiontwo">
+             <div>
+                <h2>Some random information.</h2>
+            </div>
+            <div class="round-image-container">
+                <div class="round-image">
                 <img src="" alt="">
                 <p>this is some subtext
                 under an illustration
                 or image</p>
-            </div>
-            <div>
+                </div>
+                <div class="round-image">
                 <img src="" alt="">
+                </div>
+                <p>this is some subtext
+                under an illustration
+                or image</p>
+                <div class="round-image">
+                <img src="" alt="">
+                </div>
+                <p>this is some subtext
+                under an illustration
+                or image</p>
+                <div class="round-image">
+                <img src="" alt="">
+                </div>
+                <p>this is some subtext
+                under an illustration
+                or image</p>
+                <div class="round-image">
+                <img src="" alt="">
+                </div>
                 <p>this is some subtext
                 under an illustration
                 or image</p>
             </div>
-            <div>
-                <img src="" alt="">
-                <p>this is some subtext
-                under an illustration
-                or image</p>
+        </section>
+        <section class="quote-container">
+         <p>This is an inspiring quote, or a testimonial from a
+            customer. Maybe it's just filling up space, or maybe
+            people will actually read it. Who knows? All | know
+            is that it looks nice.</p>
+         <h3>-Thor, God of Thunder</h3>
+        </section>
+         <section class="sectionfour">
+             <div class="round-bluebox">
+                <div>
+                    <span>Call to action! It's time!</span>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div>
+                     <button class="signup">Signup</button>
+                </div>
             </div>
-            <div>
-                <img src="" alt="">
-                <p>this is some subtext
-                under an illustration
-                or image</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>this is some subtext
-                under an illustration
-                or image</p>
-            </div>
-        </div>
-
-    </section>
-    <section class="sectionthree">
-        <h3></h3>
-    </section>
-    <section class="sectionfour">
-        <div class="round-bluebox">
-            <div>
-                <span>Call to action! It's time!</span>
-                <p>Sign up for our product by clicking that button right over there!</p>
-            </div>
-            <div>
-                <button class="signup">
-                    Signup
-                </button>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <div>
             <span class="copywrite">Copyright © The Odin Project 2021</span>
